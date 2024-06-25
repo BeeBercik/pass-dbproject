@@ -781,7 +781,7 @@ INSERT INTO rokaniaa.dbo.orders (orderdate, status, tip, discount, reservationid
 INSERT INTO rokaniaa.dbo.orders (orderdate, status, tip, discount, reservationid) VALUES (N'2023-10-02', 0, 12.00, null, 25);
 ```
 
-- Payments mtehods
+- Payment methods
 ```sql
 INSERT INTO rokaniaa.dbo.payment_methods (name) VALUES (N'Gotówka');
 INSERT INTO rokaniaa.dbo.payment_methods (name) VALUES (N'Blik');
