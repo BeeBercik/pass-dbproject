@@ -196,11 +196,11 @@ processed_orders:
 - Wyjaśnienie diagramów
 
 Diagram dla Klienta obejmuje wszystkie interakcje, które klient hotelowy może wykonać, takie jak rezerwacja pokoju, dodawanie usług, dokonywanie płatności i generowanie rachunku.
-<img src="https://github.com/BeeBercik/pass-dbproject/blob/main/client-use-case.jpg">
+<!-- <img src="https://github.com/BeeBercik/pass-dbproject/blob/main/client-use-case.jpg"> -->
 Diagram dla Systemu Rezerwacji koncentruje się na zarządzaniu rezerwacjami i pokojami, które są kluczowe dla funkcji systemu obsługującego rezerwacje w hotelu.
-<img src="https://github.com/BeeBercik/pass-dbproject/blob/main/reservation-use-case.jpg">
+<!-- <img src="https://github.com/BeeBercik/pass-dbproject/blob/main/reservation-use-case.jpg"> -->
 Diagram dla Składania Zamówienia opisuje proces dodawania dodatkowych usług (jak jedzenie i napoje) do istniejącej rezerwacji klienta.
-<img src="https://github.com/BeeBercik/pass-dbproject/blob/main/order-use-case.jpg">
+<!-- <img src="https://github.com/BeeBercik/pass-dbproject/blob/main/order-use-case.jpg"> -->
 
 # 5.	Implementacja
 
