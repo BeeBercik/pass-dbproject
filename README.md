@@ -192,7 +192,16 @@ processed_orders:
 | productid         | int           | fk dla productid       |
 | price             | decimal(10,2) | cena za produkt        |
 
-# 4.	Implementacja
+# 4. Przypadki użycia (Use-Case)
+- Wyjaśnienie diagramów
+Diagram dla Klienta obejmuje wszystkie interakcje, które klient hotelowy może wykonać, takie jak rezerwacja pokoju, dodawanie usług, dokonywanie płatności i generowanie rachunku.
+
+Diagram dla Systemu Rezerwacji koncentruje się na zarządzaniu rezerwacjami i pokojami, które są kluczowe dla funkcji systemu obsługującego rezerwacje w hotelu.
+
+Diagram dla Składania Zamówienia opisuje proces dodawania dodatkowych usług (jak jedzenie i napoje) do istniejącej rezerwacji klienta.
+
+
+# 5.	Implementacja
 
 ## Kod poleceń DDL
 
@@ -728,6 +737,7 @@ CREATE FUNCTION total_price()
         )
 go
 ```
+
 ## Kod wstawiający przykładowe dane
 
 - Customers
